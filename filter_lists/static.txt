@@ -1,0 +1,9 @@
+# disable auto-adding author/url information when copying webpage texts
+www.bilibili.com##+js(aeld, copy)
+
+# enabling text copying without logging in
+blog.csdn.net##+js(aeld, copy)
+
+# enabling code selection without logging in
+blog.csdn.net###content_views pre:style(user-select: auto !important; -webkit-user-select: auto !important)
+blog.csdn.net###content_views pre code:style(user-select: auto !important; -webkit-user-select: auto !important)
